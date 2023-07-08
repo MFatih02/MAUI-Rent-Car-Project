@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
+             x:Class="Proje.Page.AnaSayfa"
+             Title="AnaSayfa">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="SourceColor">#f7f7f7</Color>
+            <Color x:Key="BoxColor">#cfca00</Color>
+            <Color x:Key="FrameColor">Transparent</Color>
+            <Color x:Key="TumuLabelColor">#b0b2b3</Color>
+
+            <Style x:Key="SourceTextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource SourceColor}"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="75,0,0,0"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style x:Key="BordertStyle" TargetType="Border">
+                <Setter Property="BackgroundColor" Value="{StaticResource FrameColor}"/>
+                <Setter Property="Padding" Value="0,0,0,20"/>
+                <Setter Property="Margin" Value="12,90,0,0"/>
+                <Setter Property="StrokeShape" Value="RoundRectangle 30" />
+                <Setter Property="WidthRequest" Value="250" />
+                <Setter Property="HeightRequest" Value="400" />
+                <Setter Property="Stroke" Value="{StaticResource BoxColor}" />
+            </Style>
+            <Style x:Key="BorderTextStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ScrollView>
+                
+            <Grid RowDefinitions="auto,*" Padding="0,0,0,0" Background="#343434">
+                    <HorizontalStackLayout Grid.Row="0" VerticalOptions="Start" HeightRequest="100" BackgroundColor="#cfca00">
+                        <Image
+                         VerticalOptions="Center"
+                         Source="logo.png"
+                         Grid.Row="0"
+                         Margin="40,-20,0,0"
+                         WidthRequest="100"
+                         HeightRequest="100"
+                         />
+                        <Label VerticalOptions="Center" Text="RELAX RENT A CAR" TextColor="Black" FontSize="30" FontAttributes="Italic" HorizontalTextAlignment="Center" Margin="400,0,0,0" />
+                        <Button VerticalOptions="Center" Text="Çıkış Yap" Margin="300,0,0,50" WidthRequest="150" HeightRequest="50" Clicked="Basildi1"/>
+                        <Button VerticalOptions="Center" Text="Profil" Margin="10,0,0,50" WidthRequest="80" HeightRequest="50" Clicked="Basildi"/>
+
+                    </HorizontalStackLayout>
+                <StackLayout x:Name="stackLayout">
+                <Grid Padding="0,25,0,0">
+                </Grid>
+                <StackLayout Orientation="Vertical">
+                    <CollectionView x:Name="Araçlar" ItemsSource="{Binding anabilgi}" Margin="60,0,60,0">
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Vertical" Span="5" />
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border  Style="{StaticResource BordertStyle}">
+                                        <Border.Content>
+                                            <StackLayout>
+                                            <Button ImageSource="{Binding FotoUrl}" Margin="0,20,0,0" BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="250" WidthRequest="300" Clicked="Detaya_Tiklandi"/>
+                                                <Label Text="{Binding Marka}" Style="{StaticResource BorderTextStyle}"/>
+                                                <Label Text="{Binding Model}" Style="{StaticResource BorderTextStyle}"/>
+                                            <Button Text="Detay..." TextColor="Black" Margin="0,20,0,0" WidthRequest="200" BackgroundColor="#cfca00" Clicked="Detaya_Tiklandi"/>
+                                        </StackLayout>
+                                        </Border.Content>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+                </StackLayout>
+
+
+
+
+            </Grid>
+        </ScrollView>
+
+    
+</ContentPage>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proje.Page.Detaylar.Detay_4008"
+             Title="Detay_4008">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="AracStil" TargetType="Label">
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+
+        <Grid  RowDefinitions="500,auto,auto,*" RowSpacing="0">
+            <Grid Grid.Row="0">
+                <CollectionView x:Name="Arac_Detaylari" ItemsSource="{Binding anabilgi}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout x:Name="Foto" Grid.Row="0" BackgroundColor="White" HeightRequest="350">
+                                <Grid>
+                                    <BoxView CornerRadius="0,0,0,0" Color="#cfca00" HeightRequest="350"/>
+                                    <Grid ColumnDefinitions="*,Auto" HeightRequest="300" HorizontalOptions="FillAndExpand">
+                                        <Image Grid.Column="0" Margin="10,20,10,20" Source="{Binding FotoUrl}" HeightRequest="330" Aspect="AspectFit"/>
+                                    </Grid>
+                                </Grid>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,-150,0,0" Background="#343434" Grid.Row="1" >
+                <Label Text="Aracımızın Markası: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="MarkaBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="300,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding Marka}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,-100,0,0" Background="#343434" Grid.Row="2" >
+                <Label Text="Aracımızın Modeli: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="ModelBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="290,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding Model}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,-50,0,0" Background="#343434" Grid.Row="3" >
+                <Label Text="Aracımızın Model Yılı: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="ModelYilBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="315,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding ModelYil}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,0,0,0" Background="#343434" Grid.Row="4" >
+                <Label Text="Aracımızın Kilometresi: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="KilometreBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="330,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding Kilometre}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,0,0,0" Background="#343434" Grid.Row="5" >
+                <Label Text="Aracımızın Yakıt Türü: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="YakitBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="330,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding YakitTürü}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,50,0,0" Background="#343434" Grid.Row="6" >
+                <Label Text="Aracımızın Bagaj Hacmi: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="BagajBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="350,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding BagajHacmi}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Label Text="Litre " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="2" Margin="400,0,0,0" />
+            </Grid>
+            <Grid RowDefinitions="auto,auto,*" Margin="0,100,0,0" Background="#343434" Grid.Row="7" >
+                <Label Text="Aracımızın Şanzıman Türü: " Style="{StaticResource AracStil}" Grid.Row="0" Grid.Column="0" Margin="50,0,0,0" />
+                <CollectionView x:Name="SanzimanBaslik"
+                Grid.ColumnSpan="3"
+                Grid.Column="1"
+                Grid.Row="0"
+                Margin="380,-2,0,0"
+                ItemsSource="{Binding anabilgi}"
+                VerticalOptions="Center">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label
+                    Text="{Binding Şanzıman}"
+                    Style="{StaticResource AracStil}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            <Button Grid.Row="8" Margin="100,50,0,0" VerticalOptions="Center" Text="Detaylı Bilgi İçin Ulaşınız: 0521 658 78 21" FontSize="30" TextColor="#343434" FontAttributes="Bold" WidthRequest="680" HeightRequest="180" BackgroundColor="#cfca00"/>
+
+
+
+
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

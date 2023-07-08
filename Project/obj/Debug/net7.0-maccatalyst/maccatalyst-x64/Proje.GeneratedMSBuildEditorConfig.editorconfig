@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proje
+build_property.ProjectDir = C:\Users\Mustafa Fatih\source\repos\Proje\Proje\
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/AnaSayfa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.AnaSayfa.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\AnaSayfa.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\AnaSayfa.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/DetaySandero.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.DetaySandero.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\DetaySandero.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\DetaySandero.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_4008.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_4008.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_4008.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_4008.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_520d.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_520d.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_520d.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_520d.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_A6.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_A6.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_A6.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_A6.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Astra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Astra.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Astra.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Astra.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_C180.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_C180.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_C180.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_C180.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Civic.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Civic.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Civic.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Civic.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Clio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Clio.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Clio.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Clio.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Cruze.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Cruze.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Cruze.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Cruze.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Egea.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Egea.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Egea.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Egea.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Focus.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Focus.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Focus.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Focus.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Giulia.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Giulia.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Giulia.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Giulia.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Megane.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Megane.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Megane.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Megane.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_Qashqai.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_Qashqai.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_Qashqai.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_Qashqai.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Detaylar/Detay_İ20.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Detaylar.Detay_İ20.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Detaylar\Detay_İ20.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Detaylar\Detay_İ20.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Kayıt.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Kayıt.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Kayıt.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Kayıt.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/ParolaDegistir.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.ParolaDegistir.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\ParolaDegistir.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\ParolaDegistir.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Page/Profil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Page.Profil.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\Profil.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\Profil.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Mustafa Fatih/source/repos/Proje/Proje/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Proje.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
