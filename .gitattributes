@@ -5,6 +5,6 @@
 
 *.js linguist-detectable=false
 
-*.llvm linguist-detectable=false
+*.ll linguist-detectable=false
 
 *.scss linguist-detectable=false
