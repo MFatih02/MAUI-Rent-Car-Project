@@ -1,9 +1,10 @@
-*.csharp linguist-detectable=true
+*.cs     diff=csharp
+#*.csharp linguist-detectable=true
 
-*.java linguist-detectable=false
+#*.java linguist-detectable=false
 
-*.js linguist-detectable=false
+#*.js linguist-detectable=false
 
-*.llvm linguist-detectable=false
+#*.llvm linguist-detectable=false
 
-*.xml linguist-detectable=false
+#*.xml linguist-detectable=false
